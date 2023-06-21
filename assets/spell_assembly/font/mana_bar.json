@@ -1,0 +1,29 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": 4,
+                "\uE000": -1
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:spell_assembly_fonts/mana_bar/empty.png",
+            "ascent": 0,
+            "height": 2,
+            "chars": [
+                "\uf000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:spell_assembly_fonts/mana_bar/filled.png",
+            "ascent": 0,
+            "height": 2,
+            "chars": [
+                "\uf001"
+            ]
+        }
+    ]
+}

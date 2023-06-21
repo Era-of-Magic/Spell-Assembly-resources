@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 2147483647}, "model": "spell_assembly_blocks/spell_crafter"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+	"parents": "block/cube_top", 
+	"textures": {
+		"top": "spell_assembly_blocks/spell_crafter_top",
+		"side": "spell_assembly_blocks/spell_crafter",
+		"particles": "spell_assembly_blocks/spell_crafter"
+	}
+}

@@ -1,0 +1,24 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "spell_assembly_blocks",
+            "prefix": "spell_assembly_blocks/"
+        },
+        {
+            "type": "directory",
+            "source": "spell_assembly_items",
+            "prefix": "spell_assembly_items/"
+        },
+        {
+            "type": "directory",
+            "source": "spell_assembly_guis",
+            "prefix": "spell_assembly_guis/"
+        },
+        {
+            "type": "directory",
+            "source": "spell_assembly_fonts",
+            "prefix": "spell_assembly_fonts/"
+        }
+    ]
+}
