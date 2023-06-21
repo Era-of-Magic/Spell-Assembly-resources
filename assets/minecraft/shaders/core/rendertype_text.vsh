@@ -1,7 +1,6 @@
 #version 150
 
 #moj_import <fog.glsl>
-#moj_import <matrix.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -36,22 +35,21 @@ void main() {
     {
         // set shadow alpha to 0
         if (gl_Position.z == 0)
-        {
             vertexColor.a = 0;
-        }
 
         // title
-        if (gl_Position.y > -0.1 && gl_Position.y < 0.1)
+        if (gl_Position.y > -0.2 && gl_Position.y < 0.5)
         {
+            if (gl_Position.x > 8.55)
+                gl_Position.x -= 1.0;
+
+            gl_Position.w *= 1.1;
             gl_Position.x -= 8.0;
-            gl_Position.a *= -2.0;
         }
 
         // actionbar
         if (gl_Position.y > -0.6 && gl_Position.y < -0.3)
-        {
             gl_Position.x -= 0.5;
-        }
     }
 
 }
