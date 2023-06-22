@@ -41,9 +41,5 @@ void main()
         {
             gl_Position.xyw = vec3(1.52 - (1 - (gl_Position.x - int(gl_Position.x))), 2.02 - (1 - gl_Position.y), 1.2);
         }
-        
-        // actionbar
-        if (gl_Position.y > -0.6 && gl_Position.y < -0.3)
-            gl_Position.x -= 0.5;
     }
 }
