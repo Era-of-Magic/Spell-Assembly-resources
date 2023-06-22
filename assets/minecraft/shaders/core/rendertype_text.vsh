@@ -31,7 +31,7 @@ void main() {
 
 
     // reposition text from outside screen
-    if (gl_Position.x > 1.0)
+    if (gl_Position.x > 1.5)
     {
         // set shadow alpha to 0
         if (gl_Position.z == 0)
@@ -40,11 +40,8 @@ void main() {
         // title
         if (gl_Position.y > -0.2 && gl_Position.y < 0.5)
         {
-            if (gl_Position.x > 8.55)
-                gl_Position.x -= 1.0;
-
-            gl_Position.w *= 1.1;
-            gl_Position.x -= 8.0;
+            gl_Position.w *= 1.2;
+            gl_Position.xy -= vec2(7.5, -0.9);
         }
 
         // actionbar

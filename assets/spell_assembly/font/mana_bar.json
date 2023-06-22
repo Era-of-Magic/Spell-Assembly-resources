@@ -28,8 +28,8 @@
         {
             "type": "bitmap",
             "file": "minecraft:spell_assembly_fonts/mana_bar/frame.png",
-            "ascent": 3,
-            "height": 7,
+            "ascent": 2,
+            "height":6,
             "chars": [
                 "\uff00"
             ]
