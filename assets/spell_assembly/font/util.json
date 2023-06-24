@@ -13,6 +13,24 @@
                 " ": 4,
                 "\uf001": -32
             }
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:spell_assembly_fonts/util/off_button.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\u0030"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:spell_assembly_fonts/util/on_button.png",
+            "ascent": 12,
+            "height": 16,
+            "chars": [
+                "\u0031"
+            ]
         }
     ]
 }

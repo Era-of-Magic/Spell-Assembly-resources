@@ -1,7 +1,13 @@
 {
     "load.datapack": "Spell Assembly loaded",
-    "uninstall.warning": "This action will delete all created data of this.",
+    "uninstall.warning": "This action will delete all data created by Spell Assembly",
     "uninstall.button.info": "Click this text to uninstall the pack",
     "uninstall.uninstall": "[Uninstall NOW]",
-    "uninstall.done": "Spell Assembly Uninstalled"
+    "uninstall.done": "Spell Assembly Uninstalled",
+    "config.title": "Spell Assembly Config Settings",
+    "config.toggle.info.off": "Click the button to turn this setting OFF",
+    "config.toggle.info.on": "Click the button to turn this setting ON",
+    "config.nativemanasystem": " Spell Assembly's mana system is used",
+    "config.manacostmultiplier": " Casting tools effect mana cost",
+    "config.manaexhaustion": " Spells increasingly cost more when cast frequently"
 }

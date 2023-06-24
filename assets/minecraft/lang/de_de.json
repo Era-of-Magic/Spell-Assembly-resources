@@ -1,7 +1,13 @@
 {
     "load.datapack": "Spell Assembly wurde geladen",
-    "uninstall.warning": "Diese Aktion wird alle erstellten Daten des Packs löschen.",
+    "uninstall.warning": "Diese Aktion wird alle daten von Spell Assembly löschen",
     "uninstall.button.info": "Klicke diesen Text um das Pack zu deinstallieren",
     "uninstall.uninstall": "[JETZT Deinstallieren]",
-    "uninstall.done": "Spell Assembly wurde deinstalliert"
+    "uninstall.done": "Spell Assembly wurde deinstalliert",
+    "config.title": "Spell Assembly Config Einstellungen",
+    "config.toggle.info.off": "Klicke den Knopf um diese Einstellung AUS zu schalten",
+    "config.toggle.info.on": "Klicke den Knopf um diese Einstellung EIN zu schalten",
+    "config.nativemanasystem": " Spell Assembly's mana System wird benutzt",
+    "config.manacostmultiplier": " Zauberwerkzeuge wirken sich auf Manakosten aus",
+    "config.manaexhaustion": " Zauber kosten zunehmend mehr bei häufiger anwendung"
 }
