@@ -6,6 +6,7 @@ in vec3 Position;
 in vec4 Color;
 in vec2 UV0;
 in ivec2 UV2;
+in vec2 ScreenSize;
 
 uniform sampler2D Sampler0;
 uniform sampler2D Sampler2;
@@ -29,17 +30,15 @@ void main()
     vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
     texCoord0 = UV0;
 
-    // reposition text from outside screen
-    if (gl_Position.x > 1.5)
-    {
-        // set shadow alpha to 0
-        if (gl_Position.z == 0)
-            vertexColor.a = 0;
+    // Remove text shadow from
+    if (Color.xyz == vec3(78/255., 92/255., 36/255.) && (Position.z == 0.03 || Position.z == 0.06 || Position.z == 0.12)) {
+        vertexColor.rgb = texelFetch(Sampler2, UV2 / 16, 0).rgb; // remove color from no shadow marker
 
-        // title
-        if (gl_Position.y > -0.2 && gl_Position.y < 0.5)
-        {
-            gl_Position.xyw = vec3(1.52 - (1 - (gl_Position.x - int(gl_Position.x))), 2.02 - (1 - gl_Position.y), 1.2);
-        }
+        if (gl_Position.y < 0.2 && gl_Position.y > -0.05)
+            gl_Position.xyw += vec3(0.855, 1.02, 0.2); // Move Mana bar to top right corner and shrink it by 20%
+
+    } else if (Color.xyz == vec3(19/255., 23/255., 9/255.) && Position.z == 0) {
+        vertexColor.a = 0 ; // make shadow invisible
     }
+
 }
