@@ -1,6 +1,6 @@
 {
     "load.datapack": "Spell Assembly loaded",
-    "uninstall.warning": "This action will uninstall the pack and delete all created data.",
+    "uninstall.warning": "This action will delete all created data of this.",
     "uninstall.button.info": "Click this text to uninstall the pack",
     "uninstall.uninstall": "[Uninstall NOW]",
     "uninstall.done": "Spell Assembly Uninstalled"
