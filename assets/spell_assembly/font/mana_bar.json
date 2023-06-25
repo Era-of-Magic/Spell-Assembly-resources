@@ -1,6 +1,7 @@
 {
     "providers": [
         {
+            "__comment": "Offsets the mana bar parts to form a solid bar",
             "type": "space",
             "advances": {
                 " ": 4,
@@ -8,9 +9,17 @@
             }
         },
         {
+            "__comment": "Offsets mana on top of the mana bar frame",
+            "type": "space",
+            "advances": {
+                " ": 4,
+                "\ue001": -66
+            }
+        },
+        {
             "type": "bitmap",
             "file": "minecraft:spell_assembly_fonts/mana_bar/empty.png",
-            "ascent": 0,
+            "ascent": 2,
             "height": 2,
             "chars": [
                 "\uf000"
@@ -19,7 +28,7 @@
         {
             "type": "bitmap",
             "file": "minecraft:spell_assembly_fonts/mana_bar/filled.png",
-            "ascent": 0,
+            "ascent": 2,
             "height": 2,
             "chars": [
                 "\uf001"
@@ -28,7 +37,7 @@
         {
             "type": "bitmap",
             "file": "minecraft:spell_assembly_fonts/mana_bar/frame.png",
-            "ascent": 2,
+            "ascent": 4,
             "height":6,
             "chars": [
                 "\uff00"

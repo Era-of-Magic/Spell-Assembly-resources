@@ -34,11 +34,15 @@ void main()
     if (Color.xyz == vec3(78/255., 92/255., 36/255.) && (Position.z == 0.03 || Position.z == 0.06 || Position.z == 0.12)) {
         vertexColor.rgb = texelFetch(Sampler2, UV2 / 16, 0).rgb; // remove color from no shadow marker
 
-        if (gl_Position.y < 0.2 && gl_Position.y > -0.05)
-            gl_Position.xyw += vec3(0.855, 1.02, 0.2); // Move Mana bar to top right corner and shrink it by 20%
+        if (gl_Position.y < 0.3 && gl_Position.y > 0.0)
+            gl_Position.xyw += vec3(1.3, 0.975, 0.2); // Move mana bar to top right corner and shrink it by 20%
 
-    } else if (Color.xyz == vec3(19/255., 23/255., 9/255.) && Position.z == 0) {
+        if (gl_Position. x > 1.8)
+            gl_Position.xy -= vec2(0.757, 0.227); // Move mana exhaustion icon to it's right place
+
+        if (gl_Position.y < 0.0 && gl_Position.y > -0.45)
+            gl_Position.xyw += vec3(1.12, 1.231, 0.53); // Move mana exhaustion bar to top right corner and shrink it by 50%
+
+    } else if (Color.xyz == vec3(19/255., 23/255., 9/255.) && Position.z == 0)
         vertexColor.a = 0 ; // make shadow invisible
-    }
-
 }

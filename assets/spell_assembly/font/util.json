@@ -1,20 +1,6 @@
 {
     "providers": [
         {
-            "type": "space",
-            "advances": {
-                " ": 4,
-                "\uf000": 1000
-            }
-        },
-        {
-            "type": "space",
-            "advances": {
-                " ": 4,
-                "\uf001": -32
-            }
-        },
-        {
             "type": "bitmap",
             "file": "minecraft:spell_assembly_fonts/util/off_button.png",
             "ascent": 12,
