@@ -9,5 +9,10 @@
     "config.toggle.info.on": "Klicke den Knopf um diese Einstellung EIN zu schalten",
     "config.nativemanasystem": " Spell Assembly's mana System wird benutzt",
     "config.manacostmultiplier": " Zauberwerkzeuge wirken sich auf Manakosten aus",
-    "config.manaexhaustion": " Zauber kosten zunehmend mehr bei häufiger anwendung"
+    "config.manaexhaustion": " Zauber kosten zunehmend mehr bei häufiger anwendung",
+    "spell.assembly.show.stats": "Spell Assembly Statistiken",
+    "show.stats.mana.amount": "Momentane Mana menge: ",
+    "show.stats.mana.max": "Momentanes Mana Maximum: ",
+    "show.stats.mana.fill.rate": "Momentane Mana Regenerationsgeschwindigkeit (20 fillrate = 1 mana/t): ",
+    "item.fusion.altar": "Fusions Altar"
 }

@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_top",
+	"textures": {
+		"side": "minecraft:spell_assembly_blocks/fusion_altar",
+		"top": "minecraft:spell_assembly_blocks/fusion_altar_top"
+	}
+}
