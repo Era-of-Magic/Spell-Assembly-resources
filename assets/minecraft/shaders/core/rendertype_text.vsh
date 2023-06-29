@@ -43,6 +43,10 @@ void main()
         if (gl_Position.y < 0.0 && gl_Position.y > -0.45)
             gl_Position.xyw += vec3(1.12, 1.231, 0.53); // Move mana exhaustion bar to top right corner and shrink it by 50%
 
-    } else if (Color.xyz == vec3(19/255., 23/255., 9/255.) && Position.z == 0)
+    }
+    else if (Color.xyz == vec3(19/255., 23/255., 9/255.) && Position.z == 0)
         vertexColor.a = 0 ; // make shadow invisible
+
+    else if (Color.xyz == vec3(74/255., 88/255., 32/255.) || (Color.xyz == vec3(18/255., 22/255., 8/255.)) && Position.z == 0)
+        vertexColor.a = 0 ; // make mana exhaustion invisible when not needed
 }
