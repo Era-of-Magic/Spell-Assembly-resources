@@ -15,5 +15,7 @@
     "show.stats.mana.amount": "Current Mana amount: ",
     "show.stats.mana.max": "Current Mana maximum: ",
     "show.stats.mana.fill.rate": "Current Mana regeneration rate (20 fillrate = 1 mana/t): ",
-    "item.fusion.altar": "Fusion Altar"
+    "item.fusion.altar": "Fusion Altar",
+    "block.gui.name.fusion.altar": "Fusion Altar",
+    "fusion.altar.button.fuse": "Fuse"
 }

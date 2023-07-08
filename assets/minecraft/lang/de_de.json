@@ -15,5 +15,7 @@
     "show.stats.mana.amount": "Momentane Mana menge: ",
     "show.stats.mana.max": "Momentanes Mana Maximum: ",
     "show.stats.mana.fill.rate": "Momentane Mana Regenerationsgeschwindigkeit (20 fillrate = 1 mana/t): ",
-    "item.fusion.altar": "Fusions Altar"
+    "item.fusion.altar": "Fusions Altar",
+    "block.gui.name.fusion.altar": "Fusions Altar",
+    "fusion.altar.button.fuse": "Fusionieren"
 }
