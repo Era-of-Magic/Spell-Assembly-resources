@@ -2,7 +2,10 @@
   "parent": "minecraft:item/template_spawn_egg",
   "overrides": [
     {
-      "predicate": {"custom_model_data": 2147483647}, "model": "spell_assembly_blocks/fusion_altar"
+      "predicate": {"custom_model_data": 9999998}, "model": "spell_assembly_blocks/fusion_altar_rods"
+    },
+    {
+      "predicate": {"custom_model_data": 9999999}, "model": "spell_assembly_blocks/fusion_altar"
     }
   ]
 }

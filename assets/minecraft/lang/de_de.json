@@ -1,5 +1,6 @@
 {
     "load.datapack": "Spell Assembly wurde geladen",
+    "auto.load.datapack": "Spell Assembly automatisch geladen",
     "uninstall.warning": "Diese Aktion wird alle daten von Spell Assembly löschen",
     "uninstall.button.info": "Klicke diesen Text um das Pack zu deinstallieren",
     "uninstall.uninstall": "[JETZT Deinstallieren]",

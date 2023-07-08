@@ -1,5 +1,6 @@
 {
     "load.datapack": "Spell Assembly loaded",
+    "auto.load.datapack": "Spell Assembly auto loaded",
     "uninstall.warning": "This action will delete all data created by Spell Assembly",
     "uninstall.button.info": "Click this text to uninstall the pack",
     "uninstall.uninstall": "[Uninstall NOW]",

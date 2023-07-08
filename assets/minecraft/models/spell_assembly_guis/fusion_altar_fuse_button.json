@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "spell_assembly_guis/fusion_altar_fuse_button"
+  }
+}

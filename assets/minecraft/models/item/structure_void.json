@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/structure_void"
+  },
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 1}, "model": "spell_assembly_guis/empty_slot"
+    },
+    {
+      "predicate": {"custom_model_data": 9999998}, "model": "spell_assembly_guis/fusion_altar_fuse_button"
+    },
+    {
+      "predicate": {"custom_model_data": 9999999}, "model": "spell_assembly_guis/fusion_altar_bg"
+    }
+  ]
+}
