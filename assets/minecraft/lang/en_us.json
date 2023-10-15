@@ -10,7 +10,7 @@
     "config.toggle.info.on": "Click the button to turn this setting ON",
     "config.nativespellcastingtriggers": " Spell Assembly's spellcasting triggers are used",
     "config.nativemanasystem": " Spell Assembly's mana system is used",
-    "config.manacostmultiplier": " Casting tools affect mana cost",
+    "config.toolmanacostmultiplier": " Casting tools affect mana cost",
     "config.manaexhaustion": " Spells increasingly cost more when cast frequently",
     "spell.assembly.show.stats": "Spell Assembly stats",
     "show.stats.mana.amount": "Current Mana amount: ",
