@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:spell_assembly_fonts/debug/error.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\u0001"
+            ]
+        }
+    ]
+}

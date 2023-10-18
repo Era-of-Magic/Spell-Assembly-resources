@@ -1,5 +1,5 @@
 {
-    "error.spell.particles.missing": "Die Partikel deines Zaubers sind fehlerhaft oder nicht vorhanden. Kontaktiere den Entwickler um den Fehler zu melden.",
+    "error.spell.particles.missing": "\nDie Partikel deines Zaubers sind fehlerhaft oder nicht vorhanden. Kontaktiere den Entwickler um den Fehler zu melden.\n",
     "load.datapack": "Spell Assembly wurde geladen",
     "auto.load.datapack": "Spell Assembly automatisch geladen",
     "uninstall.warning": "Diese Aktion wird alle daten von Spell Assembly löschen",

@@ -1,5 +1,5 @@
 {
-    "error.spell.particles.missing": "Your spell's particles are faulty or non-existent. Contact the developer to report the bug.",
+    "error.spell.particles.missing": "\nYour spell's particles are faulty or non-existent. Contact the developer to report the bug.\n",
     "load.datapack": "Spell Assembly loaded",
     "auto.load.datapack": "Spell Assembly auto loaded",
     "uninstall.warning": "This action will delete all data created by Spell Assembly",
