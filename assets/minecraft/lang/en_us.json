@@ -9,7 +9,7 @@
     "config.title": "Spell Assembly Config Settings",
     "config.toggle.info.off": "Click the button to turn this setting OFF",
     "config.toggle.info.on": "Click the button to turn this setting ON",
-    "config.showerrors": " Errors are displayed in the chat",
+    "config.showerrors": " Errors get displayed in the chat",
     "config.nativespellcastingtriggers": " Spell Assembly's spellcasting triggers are used",
     "config.nativemanasystem": " Spell Assembly's mana system is used",
     "config.toolmanacostmultiplier": " Casting tools affect mana cost",
