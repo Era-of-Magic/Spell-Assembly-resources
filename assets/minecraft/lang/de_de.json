@@ -9,6 +9,7 @@
     "config.title": "Spell Assembly Config Einstellungen",
     "config.toggle.info.off": "Klicke den Knopf um diese Einstellung AUS zu schalten",
     "config.toggle.info.on": "Klicke den Knopf um diese Einstellung EIN zu schalten",
+    "config.showerrors": " Fehler werden im Chat angezeigt",
     "config.nativespellcastingtriggers": " Spell Assembly's Zauber auslöser werden benutzt",
     "config.nativemanasystem": " Spell Assembly's mana System wird benutzt",
     "config.toolmanacostmultiplier": " Zauberwerkzeuge wirken sich auf Manakosten aus",
